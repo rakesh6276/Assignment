@@ -1,0 +1,34 @@
+******** Instructions to run Application ********
+
+Prerequirement
+
+-> Linux machine (ubuntu 16.04)
+-> pythoon3.5+
+
+Steps to run project
+
+-> Go to Excel_Db folder
+-> Then activate virtual envirnment by using command  source myenv/bin/activate
+-> Then go to project cd excel
+-> Install all packages from requirements file using command pip3 install -r requirements.txt
+
+Running the Application
+
+-> python3 manage.py makemigrations products
+   python3 manage.py makemigrations
+-> python3 manage.py migrate
+-> python3 manage.py createsuperuser (username -> rakesh password -> admin@123)
+-> python3 manage.py runserver
+
+
+API's list
+
+  http://127.0.0.1:8002/api/fileupload/ - > api to load excel file, its check for sku_code unique values , I tested for it adding new row to it.
+
+  http://127.0.0.1:8002/api/get_piches_data/  - > api to filter fileds please use postman. I checked and shared snapshots
+
+  http://127.0.0.1:8002/api/listcreate/   -> list and create products
+
+  http://127.0.0.1:8002/admin/products/pitches/ -> stored in django database.
+
+

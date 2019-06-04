@@ -1,0 +1,22 @@
+
+Goal: 
+To develop REST APIs to perform the following:
+1) API that accepts the products.xlsx as input and store them in DB. 
+   Validations: SKU, Name and Brand are mandatory values. SKU should be unique in DB. 
+   If validation failed for an entry, abort & stop import and report the last error. 
+   Note that the file has only few entries, but the code is expected to handle 100s of entries. 
+2) API that allows to search for products. Search filters can be one or more of: SKU, Name, Brand, Package. Response will be the list of matching products.
+
+All input and output will be in JSON format.
+APIs should return success response with required data if successfully processed. Else, failure response with appropriate error details.
+
+Package expected:
+1) The final code zip or repository url.
+2) Instructions to run the code.
+3) The target URLs for both the APIs with the available input params. If possible, "Postman" collection for the same would be great.
+4) One snapshot of the output from your API testing.
+
+Expectations from code:
+1) We are looking for efficient and good quality code.
+2) Unit tests to be written.
+3) Error scenarios to be handled.
