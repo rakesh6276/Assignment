@@ -2,7 +2,7 @@ backports.csv==1.0.7
 defusedxml==0.6.0
 diff-match-patch==20181111
 Django==1.11
-djangorestframework==3.9.4
+djangorestframework==3.11.2
 et-xmlfile==1.0.1
 jdcal==1.4.1
 numpy==1.16.3
